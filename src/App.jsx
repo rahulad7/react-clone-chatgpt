@@ -3,8 +3,8 @@ import { Configuration, OpenAIApi } from "openai";
 import "./index.css";
 
 const configuration = new Configuration({
-  organization: "org-Ddnw43Lfm9ZNRS3nmTfWbpUX",
-  apiKey: "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",
+  organization: "*******",
+  apiKey: "***********",
 });
 
 delete configuration.baseOptions.headers["User-Agent"];
